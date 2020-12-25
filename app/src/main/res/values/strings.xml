@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GithubDemo</string>
+    <string name="assignment">Assignment</string>
+    <string name="search_here">search here</string>
+    <string name="view_on_site">View on site</string>
+    <string name="user_name">User Name</string>
+    <string name="follower">Follower</string>
+    <string name="_0">0</string>
+    <string name="public_gits">Public gits</string>
+    <string name="n_a">N/A</string>
+    <string name="search_github_profiles">Search Github profiles</string>
+    <string name="profile">Profile</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="todo">TODO</string>
+    <string name="atar">Atar</string>
+    <string name="full_name">Full Name</string>
+    <string name="location">Location</string>
+    <string name="following">Following</string>
+    <string name="public_repository">Public Repository</string>
+    <string name="last_update">Last_update</string>
+    <string name="_11111">11111</string>
+</resources>

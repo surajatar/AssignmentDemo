@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchUserActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:elevation="2dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="@string/search_github_profiles"
+            tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/searchbar_shape"
+        android:elevation="5dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:hint="@string/search_here"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:lines="1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:targetApi="lollipop"
+        android:drawableLeft="@drawable/ic_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_search_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+</LinearLayout>
